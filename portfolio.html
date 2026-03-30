@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayan Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white; text-align: center; padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px; height: 120px; border-radius: 50%;
+            margin-bottom: 10px; border: 3px solid white;
+        }
+
+        nav { background: #333; display: flex; justify-content: center; flex-wrap: wrap; }
+        nav a { color: white; padding: 12px 15px; text-decoration: none; transition: 0.3s; }
+        nav a:hover { background: #00adb5; }
+
+        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+        h2 { margin-bottom: 20px; text-align: center; }
+
+        .skills ul { display: flex; flex-wrap: wrap; justify-content: center; list-style: none; }
+        .skills li {
+            background: #f4f4f4; margin: 10px; padding: 10px 20px;
+            border-radius: 20px; transition: 0.3s;
+        }
+        .skills li:hover { background: #00adb5; color: white; transform: scale(1.1); }
+
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .project-card {
+            background: #f4f4f4; padding: 20px; border-radius: 10px;
+            transition: 0.3s; position: relative;
+        }
+        .project-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .project-card a { text-decoration: none; color: #00adb5; font-weight: 500; }
+
+        .contact { text-align: center; }
+        .contact a { margin: 10px; color: #333; font-size: 22px; transition: 0.3s; display: inline-block; }
+        .contact a:hover { color: #00adb5; transform: scale(1.2); }
+
+        footer { background: #333; color: white; text-align: center; padding: 15px; }
+
+        @media (max-width: 600px) {
+            header img { width: 90px; height: 90px; }
+            nav a { padding: 10px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="c:\Users\DELL\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\777DA99F66D07DB4BE2FDCE5587FEB2F441267C3\transfers\2026-13\WhatsApp Image 2026-03-26 at 11.29.50 PM.jpeg" alt="Profile Photo">
+    <h1>Ayan Pal</h1>
+    <p><i class="fa-solid fa-code"></i> AIML Student & Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">I am Ayan Pal, a B.Tech student in Artificial Intelligence and Machine Learning (AIML) at MSIT College. I am passionate about technology, especially in the fields of AI, programming, and problem-solving.
+
+I enjoy learning new skills and building projects using tools like Python, HTML, and CSS. I am constantly exploring how intelligent systems work and how they can be applied to solve real-world problems.
+
+I am a motivated learner, aiming to develop strong technical skills and build a successful career in the field of AI and software development.</p>
+</section>
+
+<section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li><i class="fa-brands fa-html5"></i> Python</li>
+        <li><i class="fa-brands fa-html5"></i> C Programming</li>
+        <li><i class="fa-brands fa-html5"></i> HTML</li>
+        <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+        <li><i class="fa-solid fa-code"></i> JavaScript</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive portfolio using HTML & CSS.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Delicious Food Menu</h3>
+            <p>Delicious food menu in the hotel.</p>
+            <a href="https://ayanpal562006-hash.github.io/menu.demo/">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>AI Chatbot</h3>
+            <p>This is AI Chatbot. Modern AI chatbot.</p>
+            <a href="https://ayanpal562006-hash.github.io/AI/">View Project</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>
+        <a href="ayanpal562006@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/ayanpal562006-hash" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ayan-pal-869639375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Ayan Pal</p>
+</footer>
+
+</body>
+</html>
